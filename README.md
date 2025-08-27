@@ -1,1 +1,1 @@
-<div align="center"> <img src="https://activity-graph.herokuapp.com/graph?username=CheUhxg&theme=xcode" /> </div>
+<div align="center"> <img src="https://github-readme-activity-graph.vercel.app/graph?username=CheUhxg" /> </div>
