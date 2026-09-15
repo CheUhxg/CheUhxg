@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="470" viewBox="0 0 960 470" role="img" aria-labelledby="terminalTitle terminalDescription">
+  <title id="terminalTitle">CheUhxg terminal profile</title>
+  <desc id="terminalDescription">A dark terminal showing research focus on Linux, XNU, systems security and networking.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset=".55" stop-color="#071019"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00ff9c"/>
+      <stop offset=".5" stop-color="#70a5fd"/>
+      <stop offset="1" stop-color="#bf91f3"/>
+    </linearGradient>
+    <linearGradient id="titlebar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a25"/>
+      <stop offset="1" stop-color="#0b111a"/>
+    </linearGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <path d="M0 3h4" stroke="#70a5fd" stroke-opacity=".04" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="1" y="1" width="958" height="468" rx="18" fill="url(#panel)"/>
+  <rect x="1.5" y="1.5" width="957" height="467" rx="17.5" fill="none" stroke="url(#neon)" stroke-opacity=".65" stroke-width="3"/>
+  <rect x="12" y="12" width="936" height="446" rx="12" fill="#000" opacity=".22"/>
+
+  <path d="M12 70h936" stroke="#00ff9c" stroke-opacity=".22" stroke-width="1"/>
+  <path d="M12 70 A12 12 0 0 1 24 58" fill="none" stroke="#00ff9c" stroke-opacity=".22" stroke-width="1"/>
+  <path d="M948 70 A12 12 0 0 0 936 58" fill="none" stroke="#00ff9c" stroke-opacity=".22" stroke-width="1"/>
+
+  <g font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace">
+    <rect x="16" y="10" width="928" height="50" rx="12" fill="url(#titlebar)"/>
+    <circle cx="42" cy="35" r="6" fill="#ff5f57"/>
+    <circle cx="64" cy="35" r="6" fill="#febc2e"/>
+    <circle cx="86" cy="35" r="6" fill="#28c840"/>
+    <text x="480" y="40" fill="#a9b1d6" font-size="14" text-anchor="middle">root@cheuhxg — zsh — 80×24</text>
+    <text x="918" y="40" fill="#00ff9c" font-size="12" text-anchor="end">SECURE</text>
+
+    <g fill="#00ff9c">
+      <text x="42" y="112" font-size="17">root@cheuhxg:~# whoami</text>
+      <text x="42" y="144" font-size="17" fill="#e6edf3">CheUhxg · Systems &amp; Security Builder</text>
+      <text x="42" y="184" font-size="17">root@cheuhxg:~# cat ./focus.txt</text>
+      <text x="42" y="216" font-size="17" fill="#a9b1d6">[✓] Linux kernel internals</text>
+      <text x="42" y="244" font-size="17" fill="#a9b1d6">[✓] macOS / XNU internals</text>
+      <text x="42" y="272" font-size="17" fill="#a9b1d6">[✓] systems &amp; SDN security</text>
+      <text x="42" y="300" font-size="17" fill="#a9b1d6">[✓] vulnerability analysis</text>
+      <text x="42" y="340" font-size="17">root@cheuhxg:~# ./stack --display</text>
+      <text x="42" y="372" font-size="17" fill="#bf91f3">C · Python · Go · Java</text>
+      <text x="42" y="412" font-size="17" fill="#70a5fd" filter="url(#softGlow)">ACCESS GRANTED — building at the boundary of kernel &amp; network</text>
+    </g>
+
+    <rect x="820" y="399" width="10" height="20" fill="#00ff9c">
+      <animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <rect x="12" y="12" width="936" height="446" rx="12" fill="url(#scanlines)"/>
+</svg>
